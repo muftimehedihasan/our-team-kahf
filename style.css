@@ -70,20 +70,23 @@ h1{
     cursor: pointer;
     box-shadow: 0 0 0 4px #fff, 0 0 0 5px #246df5;
     transition: box-shadow 0.2s;
+    margin-top: 10px;
 }
 
 .profile:hover {
-    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #d10fd8;
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #39B635;
 }
 
 .content {
-    bottom: 75px;
+    bottom: 57px;
     left: 50%;
     transform: translateX(-15%);
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.5s, visibility 0.5s;
-    min-width: 200px;
+    /* min-width: 200px; */
+    width: 266px;
+    height: 370px;
 }
 
 .profile:hover .content {
@@ -93,4 +96,5 @@ h1{
 
 .linkedin-badge {
     margin-top: 15px;
+    
 }
