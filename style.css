@@ -62,8 +62,8 @@ h1{
 
 
 .profile {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background: url('img/IMG_20210713_144241.png') no-repeat center center;
     background-size: cover;
@@ -79,7 +79,7 @@ h1{
 .content {
     bottom: 75px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-15%);
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.5s, visibility 0.5s;
