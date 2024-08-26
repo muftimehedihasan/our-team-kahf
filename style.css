@@ -47,3 +47,50 @@ h1{
     color: #008374 !important;
     border: 1px solid #008374;
 }
+
+
+
+
+
+
+ /* _____________________________________________________________________________  */
+
+
+
+
+
+
+
+.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: url('img/IMG_20210713_144241.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0 0 0 4px #fff, 0 0 0 5px #246df5;
+    transition: box-shadow 0.2s;
+}
+
+.profile:hover {
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #d10fd8;
+}
+
+.content {
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s;
+    min-width: 200px;
+}
+
+.profile:hover .content {
+    visibility: visible;
+    opacity: 1;
+}
+
+.linkedin-badge {
+    margin-top: 15px;
+}
